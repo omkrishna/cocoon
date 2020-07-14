@@ -32,23 +32,82 @@ body {
   color: grey;
 }
 
+.horizontal__scrolling {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.service__card {
+  height: 70vh;
+  border-radius: 20px;
+  color: white;
+  padding: 60% 10px;
+}
+
+.quote {
+  color: deepskyblue;
+}
+
+.team {
+  height: 64vh;
+  align-items: center;
+  background-color: black;
+  padding: 35px;
+}
+
+.team__card {
+  height: 54vh;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  padding: 12% 10px;
+}
+
+.team__card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.footer {
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+
+.footer__logo {
+  padding-bottom: 25px;
+}
+
+.footer__icons {
+  padding: 25px 0;
+}
+
+.footer__icon {
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+.footer__menu {
+  padding: 20px 0;
+}
+
 @keyframes color-change {
   0% {
-    color: #000;
+    color: #4285f4;
   }
-  20% {
-    color: #ffff66;
+  25% {
+    color: #db4437;
   }
-  40% {
-    color: #66ff66;
+  50% {
+    color: #f4b400;
   }
-  60% {
-    color: #50bfef;
-  }
-  80% {
-    color: #ff6eff;
+  75% {
+    color: #0f9d58;
   }
   100% {
-    color: #000;
+    color: #4285f4;
   }
 }
