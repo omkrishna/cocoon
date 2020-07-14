@@ -7,6 +7,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .navbar-brand {
   font-size: 1.5rem;
 }
@@ -109,5 +114,30 @@ body {
   }
   100% {
     color: #4285f4;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .carousel-item img {
+    width: 500px;
+    height: 600px;
+  }
+  .service__card {
+    height: 20vh;
+    padding: 30% 10px;
+  }
+  .team {
+    height: 64vh;
+    align-items: center;
+    background-color: black;
+    padding: 45px;
+  }
+
+  .team__card {
+    height: 50vh;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 5% 10px;
   }
 }
