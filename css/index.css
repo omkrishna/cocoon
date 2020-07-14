@@ -11,6 +11,44 @@ body {
   font-size: 1.5rem;
 }
 
-.pink {
-  color: darkgreen;
+.multi__colored {
+  animation: color-change 5s infinite;
+}
+
+.black {
+  color: black;
+}
+
+.carousel-item img {
+  height: 250px;
+  width: 100%;
+}
+
+.customer__speaks {
+  text-decoration: underline;
+}
+
+.customer__speaks-text {
+  color: grey;
+}
+
+@keyframes color-change {
+  0% {
+    color: #000;
+  }
+  20% {
+    color: #ffff66;
+  }
+  40% {
+    color: #66ff66;
+  }
+  60% {
+    color: #50bfef;
+  }
+  80% {
+    color: #ff6eff;
+  }
+  100% {
+    color: #000;
+  }
 }
