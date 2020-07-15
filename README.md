@@ -11,6 +11,8 @@
 - Navbar with section wise navigation
 - Automatic carousel
 - Interactive UI/UX elements
+- Direct Call button
+- Google Map was embedded but shows an error because of missing API key. Use your own API key if cloning
 - Basic form validation
 - Footer
 
