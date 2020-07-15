@@ -1,0 +1,15 @@
+{
+  "background_color": "black",
+  "description": "Simplyfying businesses, one at a time",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "./images/logo.PNG",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "cocoon seed accelerator",
+  "short_name": "Cocoon",
+  "start_url": "https://omkrishna.github.io/cocoon/index.html"
+}
