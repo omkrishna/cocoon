@@ -276,8 +276,7 @@
               <h2>Jane Doe</h2>
               <h4>Founder, CEO</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                earum laboriosam minima
+                Lorem ipsum dolor sit amet consectetur
               </p>
             </div>
           </div>
@@ -287,8 +286,7 @@
               <h2>Jane Doe</h2>
               <h4>Founder, CEO</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                earum laboriosam minima
+                Lorem ipsum dolor sit amet consectetur
               </p>
             </div>
           </div>
@@ -298,8 +296,7 @@
               <h2>Jane Doe</h2>
               <h4>Founder, CEO</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                earum laboriosam minima
+                Lorem ipsum dolor sit amet consectetur
               </p>
             </div>
           </div>
@@ -318,7 +315,7 @@
       </h1>
       <h5>Have a message, query or feedback ? Mail Us at help@cocoon.org</h5>
 
-      <form>
+      <form onsubmit="mail()">
         <div class="form-group row">
           <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
           <div class="col-sm-10">
@@ -327,6 +324,7 @@
               class="form-control"
               id="inputEmail3"
               placeholder="Your email"
+              required
             />
           </div>
         </div>
@@ -338,6 +336,7 @@
               class="form-control"
               id="name"
               placeholder="Your name"
+              required
             />
           </div>
         </div>
@@ -347,6 +346,7 @@
             class="form-control"
             id="exampleFormControlTextarea1"
             rows="3"
+            required
           ></textarea>
         </div>
 
@@ -434,6 +434,10 @@
       function topFunction() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
+      }
+
+      function mail() {
+        alert("Your response was recorded");
       }
     </script>
 

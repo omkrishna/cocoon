@@ -253,4 +253,8 @@ a {
     padding: 6px 12px;
     right: 75px;
   }
+  .service__card {
+    height: 450px;
+    padding-top: 200px;
+  }
 }
