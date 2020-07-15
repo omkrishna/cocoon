@@ -79,7 +79,17 @@ a {
   height: 70vh;
   border-radius: 20px;
   color: white;
-  padding: 60% 20px;
+  padding: 80% 20px;
+}
+
+.service__card h1 {
+  font-weight: 600;
+  background-color: #000000bb;
+  padding: 10px;
+}
+.service__card h4 {
+  background-color: #00000055;
+  padding: 10px;
 }
 
 .quote {
@@ -234,14 +244,13 @@ a {
     margin: 10px;
   }
   #top__button {
-    font-size: 14px;
-
-    padding: 5px 10px;
+    font-size: 16px;
+    padding: 6px 12px;
   }
 
   #top__button-2 {
-    font-size: 14px;
-    right: 70px;
-    padding: 5px 10px;
+    font-size: 16px;
+    padding: 6px 12px;
+    right: 75px;
   }
 }
