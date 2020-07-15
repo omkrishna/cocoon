@@ -1,7 +1,7 @@
 // Register service worker to control making site work offline
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw.js").then(function () {
+  navigator.serviceWorker.register("/cocoon/sw.js").then(function () {
     console.log("Service Worker Registered");
   });
 }
@@ -11,6 +11,7 @@ if ("serviceWorker" in navigator) {
 let deferredPrompt;
 const addBtn = document.getElementById("add-button");
 addBtn.style.display = "none";
+
 window.addEventListener("beforeinstallprompt", (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   e.preventDefault();
@@ -20,6 +21,7 @@ window.addEventListener("beforeinstallprompt", (e) => {
   // Update UI to notify the user they can add to home screen
   addBtn.style.display = "block";
 });
+
 addBtn.addEventListener("click", (e) => {
   // hide our user interface that shows our A2HS button
   addBtn.style.display = "none";
