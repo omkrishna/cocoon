@@ -13,3 +13,6 @@
 - Interactive UI/UX elements
 - Basic form validation
 - Footer
+
+
+###### Disclaimer : all data and images were picked up from Google and other places from the internet. 
