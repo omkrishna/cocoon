@@ -15,4 +15,4 @@
 - Footer
 
 
-###### Disclaimer : all data and images were picked up from Google and other places from the internet. 
+###### Disclaimer : all data and images were picked up from Google and other places on the internet. 
