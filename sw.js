@@ -1,7 +1,12 @@
 self.addEventListener("install", function (e) {
   e.waitUntil(
     caches.open("cocoon").then(function (cache) {
-      return cache.addAll(["/index.html", "/index.js"]);
+      return cache.addAll([
+        "/cocoon/",
+        "/cocoon/index.html",
+        "/cocoon/index.js",
+        "/cocoon/css/index.css",
+      ]);
     })
   );
 });
