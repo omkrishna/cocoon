@@ -9,7 +9,7 @@
       "type": "image/png"
     }
   ],
-  "name": "cocoon seed accelerator",
+  "name": "Cocoon",
   "short_name": "Cocoon",
-  "start_url": "https://omkrishna.github.io/cocoon/index.html"
+  "start_url": "./cocoon/index.html"
 }
