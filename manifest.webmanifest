@@ -11,5 +11,5 @@
   ],
   "name": "Cocoon",
   "short_name": "Cocoon",
-  "start_url": "./cocoon/index.html"
+  "start_url": "/index.html"
 }
