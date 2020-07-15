@@ -33,7 +33,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light container">
       <a class="navbar-brand" href="#"
         ><img src="./images/logo.PNG" height="50" width="50" />coc<span
           class="multi__colored"
@@ -79,7 +79,7 @@
 
     <!-- CAROUSEL -->
     <div
-      id="carouselExampleIndicators"
+      id="carousel"
       class="carousel slide carousel-fade"
       data-ride="carousel"
     >
@@ -97,7 +97,7 @@
             <span class="black">Read the story </span
             ><i
               class="fas fa-chevron-circle-right"
-              style="font-size: 14px; color: black;"
+              style="font-size: 14px; color: #db4437;"
             ></i>
           </h6>
         </div>
@@ -106,15 +106,15 @@
           <h6 class="container customer__speaks">CUSTOMER SPEAKS</h6>
           <h2 class="container">
             Cocoon helped me start a hospital in my village and provide
-            healthcare to many
+            healthcare there
           </h2>
           <h6 class="container customer__speaks-text">
             My name is Shalini and I am a doctor by profession. Back in 2012, I
-            wanted to start <br /><br />
+            wanted to start my own business<br /><br />
             <span class="black">Read the story </span
             ><i
               class="fas fa-chevron-circle-right"
-              style="font-size: 14px; color: black;"
+              style="font-size: 14px; color: #db4437;"
             ></i>
           </h6>
         </div>
@@ -131,14 +131,14 @@
             <span class="black">Read the story </span
             ><i
               class="fas fa-chevron-circle-right"
-              style="font-size: 14px; color: black;"
+              style="font-size: 14px; color: #db4437;"
             ></i>
           </h6>
         </div>
       </div>
       <a
         class="carousel-control-prev"
-        href="#carouselExampleIndicators"
+        href="#carousel"
         role="button"
         data-slide="prev"
       >
@@ -147,7 +147,7 @@
       </a>
       <a
         class="carousel-control-next"
-        href="#carouselExampleIndicators"
+        href="#carousel"
         role="button"
         data-slide="next"
       >
@@ -173,6 +173,14 @@
       <hr />
     </div>
 
+    <!-- BACK TO TOP BUTTON -->
+    <button onclick="topFunction()" id="top__button">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <a href="tel:9999999999" id="top__button-2">
+      <i class="fa fa-whatsapp"></i>
+    </a>
+
     <!-- OUR SERVICES -->
     <div class="container" id="services">
       <h1 class="">
@@ -181,19 +189,19 @@
       </h1>
 
       <div class="row horizontal__scrolling">
-        <div class="col-10">
+        <div class="col-11">
           <div class="service__card" style="background-color: lightsalmon;">
             <h1>Infrastructure Building</h1>
             <h4>We help build infrastructure for your business</h4>
           </div>
         </div>
-        <div class="col-10">
+        <div class="col-11">
           <div class="service__card" style="background-color: lightslategray;">
             <h1>Digital Marketing</h1>
             <h4>We promote your business on all social media platforms</h4>
           </div>
         </div>
-        <div class="col-10">
+        <div class="col-11">
           <div class="service__card" style="background-color: lightpink;">
             <h1>Councelling Services</h1>
             <h4>We sit and solve all of your business related queries</h4>
@@ -217,16 +225,15 @@
         id. Quisquam inventore at labore corrupti odio ex odit voluptate!
       </div>
       <br />
-      <h3 class="quote">
+      <h4 class="quote">
         Our vision is to support every businesswoman who has a dream, so that
         when she's ready, she can spread her wings and fly high
-      </h3>
+      </h4>
       <br />
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A, laboriosam
         labore quae nemo voluptatum sequi, voluptas iste, facere doloribus magni
-        id. Quisquam inventore at labore corrupti odio ex odit voluptate! Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+        id.
       </div>
     </div>
     <div class="container">
@@ -246,11 +253,10 @@
               <img src="./images/slide-3.PNG" />
               <h2>Jane Doe</h2>
               <h4>Founder, CEO</h4>
-              <h6>
+              <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                earum laboriosam minima vero, iusto accusantium obcaecati beatae
-                sunt sapiente incidunt consequuntur
-              </h6>
+                earum laboriosam minima
+              </p>
             </div>
           </div>
           <div class="col-10 col-md-6">
@@ -258,11 +264,10 @@
               <img src="./images/slide-3.PNG" />
               <h2>Jane Doe</h2>
               <h4>Founder, CEO</h4>
-              <h6>
+              <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                earum laboriosam minima vero, iusto accusantium obcaecati beatae
-                sunt sapiente incidunt consequuntur
-              </h6>
+                earum laboriosam minima
+              </p>
             </div>
           </div>
           <div class="col-10 col-md-6">
@@ -270,11 +275,10 @@
               <img src="./images/slide-3.PNG" />
               <h2>Jane Doe</h2>
               <h4>Founder, CEO</h4>
-              <h6>
+              <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                earum laboriosam minima vero, iusto accusantium obcaecati beatae
-                sunt sapiente incidunt consequuntur
-              </h6>
+                earum laboriosam minima
+              </p>
             </div>
           </div>
         </div>
@@ -300,20 +304,18 @@
               type="email"
               class="form-control"
               id="inputEmail3"
-              placeholder="Email"
+              placeholder="Your email"
             />
           </div>
         </div>
         <div class="form-group row">
-          <label for="inputPassword3" class="col-sm-2 col-form-label"
-            >Password</label
-          >
+          <label for="name" class="col-sm-2 col-form-label">Name</label>
           <div class="col-sm-10">
             <input
-              type="password"
+              type="text"
               class="form-control"
-              id="inputPassword3"
-              placeholder="Password"
+              id="name"
+              placeholder="Your name"
             />
           </div>
         </div>
@@ -385,6 +387,33 @@
     </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+    <script>
+      var mybutton = document.getElementById("top__button");
+      var mybutton2 = document.getElementById("top__button-2");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 30 ||
+          document.documentElement.scrollTop > 30
+        ) {
+          mybutton.style.display = "block";
+          mybutton2.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+          mybutton2.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
