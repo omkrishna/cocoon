@@ -4,7 +4,7 @@
 [Check live demo here](https://omkrishna.github.io/cocoon/index)
 
 ## One pager mobile site
-## The site is built for mobile browsing only. Opening it on larger skins will distort elements and hinder functionality
+## The site is built for mobile browsing only. Opening it on larger screens will distort elements and hinder functionality
 
 ## Features 
 - Fully Responsive, built using a mobile first approach
